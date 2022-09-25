@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+/* universal css for all pages!*/
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+.Page_body{
+    animation: transitionIn 0.75s;
+}
+
+.Nav_Menu{
+    animation: transitionIn 0.75s;
+}
+
+.logo{
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transition: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transition: rotateX(0);
+
+    }
+}
+
+li a {
+    font-family:"Shadows Into Light Two";
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.Logo2{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.Nav_Menu li{
+    list-style: none;
+}
+
+.Nav_Menu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.Nav_Menu li a{
+    transform: all 0.3s ease 0s;
+}
+
+.Nav_Menu li a:hover{
+    color: violet;
+}
+
+body{
+    text-align: center;
+}
+
+.Page_body{
+    width: 100%;
+	position: relative;
+	top: 110px;
+	height: 3500px;
+	padding-right: 20;
+}
+
+h1 {
+    font-family:"Shadows Into Light Two";
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+
+h2{
+    font-family:"Shadows Into Light Two";
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+} 
+
+h3{
+    font-family:"Shadows Into Light Two";
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+} 
+
+
+p{
+    font-family:"Shadows Into Light Two";
+    font-weight: 400;
+    font-size: 23px;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+}
+
+h4{
+    font-family:"Shadows Into Light Two";
+    color: white;
+    text-decoration: none;
+}
+
+/* index.html css codes down below*/
+.tapme{
+    width: 150px;
+}
+
+h5{
+    font-family:"Shadows Into Light Two";
+    font-weight: 400;
+    color: black;
+    text-decoration: none; 
+}
+
+/* gallery.html css codes down below */
+
+.lol{
+	border-radius: 10px;
+}
+
+.deez{
+	border-radius: 10px;
+}
+
+.gallery{
+    display: grid;
+	grid-template-columns: repeat(3, 300px);
+	justify-content: center;
+	align-content: center;
+	grid-gap: 25px;
+	height: 100vh;
+}
+
+
+.gallery img{
+    border-radius: 10px;
+	width: 300px;
+	height: 300px;
+	cursor: pointer;
+	transition: 0.8s;	
+    
+}
+
+.gallery img:hover{
+    transform: scale(1.05);
+}
+
+.titleimage{
+    font-weight: bold;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container img{
+    margin-right: 20px;
+}
+
+/* about.html css codes down below*/
+
+.hrtypetwo{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgb(255, 182, 193),
+    rgba(255, 255, 255, 0.932), rgb(255, 182, 193));
+}
+
+.hrtypeone{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.5px 0 0 0;
+    border-radius: 20px;
+    width: 75%;
+    margin: auto;
+}
+.hrtypeone::before{
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1.5px 0;
+    border-radius: 20px;
+}
+
+.screenshotone{
+    width: 50%;
+    border: black solid;
+    border-radius: 10px;
+
+}
+
+/* Special thanks css codes down below! */
+
+.imageone{
+    width: 125px;
+	height: 125px;
+    border-radius: 50%;
+    border: solid white 3px;
+}
+ 
